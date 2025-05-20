@@ -6,11 +6,11 @@
 function onValueChanged()
 	if window.isInitialized() then
 		local sValue = getStringValue()
-		if sValue == "" and baseability then
+		if sValue == '' and baseability then
 			sValue = baseability[1]
 		end
 
-		local sCharRelative = ""
+		local sCharRelative = ''
 		if abilityrelative then
 			sCharRelative = abilityrelative[1]
 		end
