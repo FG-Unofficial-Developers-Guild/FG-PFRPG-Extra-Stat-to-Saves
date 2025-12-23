@@ -7,7 +7,7 @@
 		<loadorder>37</loadorder>
 		<name>Feature: Extra Stat to Saves</name>
 		<version>2.8</version>
-		<author>bmos (Wil Thieme)</author>
+		<author>bmos (Ramona T)</author>
 		<description>This extension adds a second set of ability cyclers on the combat tab so that classes like paladins can add CHA (or any other ablity mod) to their saves.</description>
 		<ruleset>
 			<name>3.5E</name>
