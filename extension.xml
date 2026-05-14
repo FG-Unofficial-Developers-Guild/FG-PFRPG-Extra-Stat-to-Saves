@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Please see the LICENSE.md file included with this distribution for attribution and copyright information. -->
-
 <root version='3.3' release='3'>
 	<properties>
 		<loadorder>37</loadorder>
 		<name>Feature: Extra Stat to Saves</name>
-		<version>2.8</version>
-		<author>bmos (Ramona T)</author>
-		<description>This extension adds a second set of ability cyclers on the combat tab so that classes like paladins can add CHA (or any other ablity mod) to their saves.</description>
+		<version>2.9</version>
+		<author>bmos (Ramona T) Updated by dllewell</author>
+		<description
+        >This extension adds a second set of ability cyclers on the combat tab so that classes like paladins can add CHA (or any other ablity mod) to their saves.</description>
 		<ruleset>
 			<name>3.5E</name>
 		</ruleset>
@@ -17,7 +16,11 @@
 		</ruleset>
 	</properties>
 
-	<announcement text="https://github.com/bmos/FG-PFRPG-Extra-Stat-to-Saves\nPFRPG Extra Stat to Saves v2.8:\nThis extension adds a second set of ability cyclers on the combat tab so that classes like paladins can add CHA (or any other ablity mod) to their saves" font="emotefont" icon="module_loaded" />
+	<announcement
+        text="https://github.com/FG-Unofficial-Developers-Guild/FG-PFRPG-Extra-Stat-to-Saves\nPFRPG Extra Stat to Saves v2.9:\nThis extension adds a second set of ability cyclers on the combat tab so that classes like paladins can add CHA (or any other ablity mod) to their saves"
+        font="emotefont"
+        icon="module_loaded"
+    />
 
 	<base>
 		<!-- Campaign Records -->

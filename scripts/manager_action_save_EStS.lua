@@ -2,6 +2,11 @@
 -- Please see the LICENSE.md file included with this distribution for attribution and copyright information.
 --
 
+--[[ Code Changes
+Date        Author   Change
+10-May-2026 dllewell Changed ActorManager35E.getAbilityEffectsBonus to ActorManagerD20.getAbilityEffectsBonus
+]]
+
 local getRoll_old = nil
 local function getRoll_new(rActor, sSave, ...)
 	local rRoll = getRoll_old(rActor, sSave, ...) -- inheret output of previously-loaded getRoll function
@@ -52,7 +57,7 @@ local function modSave_new(rSource, rTarget, rRoll, ...)
 
 		local bEffects
 		-- bmos adding effects for second save stat
-		local nBonusStat2, nBonusEffects2 = ActorManager35E.getAbilityEffectsBonus(rSource, sActionStat2)
+		local nBonusStat2, nBonusEffects2 = ActorManagerD20.getAbilityEffectsBonus(rSource, sActionStat2)
 		if nBonusEffects2 > 0 then
 			bEffects = true
 			nAddMod = nAddMod + nBonusStat2
